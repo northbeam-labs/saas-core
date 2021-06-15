@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+  core:
+    build: ./core
+    restart: unless-stopped
+    depends_on:
+      - db
+  billing:
+    build: ./billing
+    restart: unless-stopped
+    depends_on:
+      - db
+  app:
+    build: ./app
+    restart: unless-stopped
+    depends_on:
+      - db
+  infra:
+    build: ./infra
+    restart: unless-stopped
+    depends_on:
+      - db
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_PASSWORD: dev
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
