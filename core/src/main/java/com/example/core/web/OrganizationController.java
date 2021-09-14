@@ -14,3 +14,4 @@ public class OrganizationController {
     @GetMapping("/{id}") public Organization get(@PathVariable Long id) { return service.get(id); }
     @PostMapping public Organization create(@RequestBody Organization e) { return service.save(e); }
 }
+// off-by-one, fixed
