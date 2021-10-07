@@ -5,3 +5,4 @@
 - tidy up
 - check perf here
 - revisit later
+- minor wording
