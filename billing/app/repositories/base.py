@@ -22,3 +22,4 @@ class BaseRepository:
     def delete(self, obj):
         self.db.delete(obj)
         self.db.commit()
+# tidy up
