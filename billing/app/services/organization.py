@@ -18,3 +18,4 @@ class OrganizationService:
 
     def create(self, data):
         return self.repo.create(Organization(**data.dict()))
+# off-by-one, fixed
