@@ -14,3 +14,4 @@ spec:
         - name: worker
           image: ghcr.io/code-pilgrimz/worker:latest
           ports: [ { containerPort: 8080 } ]
+# revisit later
