@@ -4,3 +4,4 @@ export interface Comment {
   author_id: number;
   edited: boolean;
 }
+// off-by-one, fixed
