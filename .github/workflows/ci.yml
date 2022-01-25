@@ -8,3 +8,4 @@ jobs:
       - name: build
         run: echo ok
 # tidy up
+# check perf here
