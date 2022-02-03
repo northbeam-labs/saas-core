@@ -5,3 +5,4 @@ export interface Organization {
   plan: string;
   seats: number;
 }
+// TODO clean this
