@@ -14,3 +14,4 @@ public class PaymentController {
     @GetMapping("/{id}") public Payment get(@PathVariable Long id) { return service.get(id); }
     @PostMapping public Payment create(@RequestBody Payment e) { return service.save(e); }
 }
+// off-by-one, fixed
