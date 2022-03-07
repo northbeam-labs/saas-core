@@ -16,3 +16,4 @@ public class Tag {
     public String getColor() { return color; }
     public void setColor(String v) { this.color = v; }
 }
+// TODO clean this
