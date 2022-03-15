@@ -20,3 +20,4 @@ class OrganizationUpdate(BaseModel):
     slug: str | None = None
     plan: str | None = None
     seats: int | None = None
+# TODO clean this
