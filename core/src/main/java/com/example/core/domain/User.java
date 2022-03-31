@@ -22,3 +22,4 @@ public class User {
     public String getHashedPassword() { return hashed_password; }
     public void setHashedPassword(String v) { this.hashed_password = v; }
 }
+// TODO clean this
