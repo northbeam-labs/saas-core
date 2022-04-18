@@ -20,3 +20,4 @@ def get_tag(id: int, db: Session = Depends(get_db)):
 @router.post("", response_model=TagOut)
 def create_tag(data: TagIn, db: Session = Depends(get_db)):
     return TagService(db).create(data)
+# check perf here
