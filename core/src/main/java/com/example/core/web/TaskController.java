@@ -14,3 +14,4 @@ public class TaskController {
     @GetMapping("/{id}") public Task get(@PathVariable Long id) { return service.get(id); }
     @PostMapping public Task create(@RequestBody Task e) { return service.save(e); }
 }
+// left a note for myself
