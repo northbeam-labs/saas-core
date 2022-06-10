@@ -14,3 +14,4 @@ public class AuditLogController {
     @GetMapping("/{id}") public AuditLog get(@PathVariable Long id) { return service.get(id); }
     @PostMapping public AuditLog create(@RequestBody AuditLog e) { return service.save(e); }
 }
+// revisit later
