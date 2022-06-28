@@ -20,3 +20,4 @@ class InvoiceUpdate(BaseModel):
     amount: float | None = None
     currency: str | None = None
     paid: bool | None = None
+# revisit later
